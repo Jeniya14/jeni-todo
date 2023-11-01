@@ -77,9 +77,7 @@ ul>li{
     border-radius: 10px;
 
 }
-ul>li::first-letter{
-    text-transform: uppercase ;
-}
+
 #listItems:hover{
     background-color:#cdb3cd;
     box-shadow: 2px 2px 2px black;
@@ -111,7 +109,9 @@ li>span{
     color: #e6cbe6;
     text-decoration: line-through;
 } */
-
+li>span::first-letter{
+    text-transform: uppercase ;
+}
 ul li:nth-child(odd){
     background-color:#f6e6f8;
 }
