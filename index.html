@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./todo.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="first-div" id="first-div">
+            <h1 class="todo-heading">Todo list</h1>
+            <input id="inputvalue" type="text" ></input>
+            <button id="add" class="first-div-btn">Add</button>
+        </div>
+        <div class="sec-div">
+            <ul id="list" >
+                <li onclick="strikeThrough(this)" id="listItems"><img src="./image/802338.png"><span>Clean the car</span><button onclick='removeElement(this)'>X</button></li>
+
+                <li onclick="strikeThrough(this)" id="listItems"><img src="./image/802338.png"><span>Do the laundry</span><button onclick='removeElement(this)'>X</button></li>
+            </ul>
+        </div>
+        <script src="./todo.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body{
+    background-color: azure;
+}
+
+.main{
+    margin: 2px 222px;
+    background-color: white;
+}
+.first-div{
+    text-align: center;
+    background-image: url(./image/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    height: 220px;
+}
+.first-div>h1{
+    font-family: 'arial';
+    font-style: italic;
+    font-size: 42px;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow:5px 5px 5px black;
+}
+
+input[id=inputvalue]{
+    width: 600px;
+    height: 50px;
+    padding: 3px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    border-color: #af7cb5;
+    outline: none;
+    
+}
+input:focus{
+    background-color:#f3ebf5;
+    box-shadow: 5px 5px 5px black;
+}
+.first-div-btn{
+    padding: 5px;
+    height: 60px;
+    margin-left: -100px;
+    font-size: 18px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #eca3ff;
+    border-color:#eca3ff ;
+    outline: none;
+}
+.first-div-btn:hover{
+    box-shadow: -3px 3px 3px black;
+}
+.first-div-btn:active{
+    background-color: #cf39f5;
+    border-color: #cf39f5;
+}
+.sec-div{
+    background-color: #e6cbe6;
+}
+ul{
+    padding: 5px;
+    margin-block-start: 0px;
+    padding-inline-start: 20px;
+   
+}
+ul>li{
+    list-style: none;
+    background-color:#f6e6f8;
+    padding: 10px;
+    margin: 5px;
+    font-size: 26px;
+    letter-spacing: 3px;
+    display: flex;
+    border-radius: 10px;
+
+}
+#listItems:hover{
+    background-color:#cdb3cd;
+    box-shadow: 2px 2px 2px black;
+
+}
+ul li>button{
+    float: right;
+    border-radius: 10px;
+    height: 34px;
+    width: 70px;
+    margin-left: auto;
+    background-color: #f75252;
+    color: white;
+    border-color: #f75252;
+    
+}
+ul li>button:hover{
+    box-shadow: 5px 5px 5px black;
+}
+li>img{
+    height: 40px;
+    width: 40px;
+}
+li>span{
+    align-self: center;
+    margin-left: 20px;
+}
+/* li:active{
+    color: #e6cbe6;
+    text-decoration: line-through;
+} */
+
+ul li:nth-child(odd){
+    background-color:#f6e6f8;
+}
+ul li:nth-child(even){
+    background-color:#e6cdff;
+}
