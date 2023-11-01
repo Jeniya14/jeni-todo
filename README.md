@@ -2,6 +2,8 @@
 
 # My First Todo Webpage
 
+![Screenshot](Screenshot.png)
+
 This repository contains the code for my first todo webpage. It's a simple web application built using HTML, CSS, and JavaScript that allows users to create, track, and manage their daily tasks.
 
 ## Features:
