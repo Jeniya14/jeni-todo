@@ -17,6 +17,6 @@ This repository contains the code for my first todo webpage. It's a simple web a
 - JavaScript
 
 ## Deployment:
-The project is deployed and accessible at [https://jeniya14.github.io/jenitodo.github.io/](https://jeniya14.github.io/jenitodo.github.io/).
+The project is deployed and accessible at [https://jeniya14.github.io/jenitodo.github.io/](https://jeniya14.github.io/jenitodo.github.io/) (Not a responsive webpage ).
 
 Feel free to clone or fork this repository to explore and enhance your understanding of web development. Any feedback or contributions are welcome!
